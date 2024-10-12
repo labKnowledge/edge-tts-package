@@ -21,6 +21,8 @@ from typing import (
     Optional,
     Tuple,
     Union,
+    BinaryIO,
+    TextIO
 )
 from xml.sax.saxutils import escape
 
