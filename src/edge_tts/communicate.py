@@ -9,7 +9,7 @@ import ssl
 import time
 import uuid
 from contextlib import nullcontext
-from io import TextIOWrapper
+from io import TextIOWrapper, BytesIO
 from queue import Queue
 from typing import (
     Any,
